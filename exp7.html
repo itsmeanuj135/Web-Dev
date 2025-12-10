@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <title>css box model</title>
+ <meta charset="UTF-8">
+ <title>Simple Navigation Menu</title>
  <link rel="stylesheet" href="box.css">
- <style>
-body
-{
-    background-color: black;
-}
-</style>
 </head>
 <body>
- <h1 style="color: white; text-align: center; ">CSS Box Model</h1>
- <div style="background: orange; padding:top;">
-
- </div>
+ 
+ <header>
+ My <span>Website</span> Navigation
+ </header>
+ 
+ <nav class="inline-block-menu">
+ <ul>
+ <li><a href="#">Home</a></li>
+ <li><a href="#">About</a></li>
+ <li><a href="#">Services</a></li> </ul>
+ </nav>
+ 
+ <nav class="float-menu">
+ <ul>
+ <li><a href="#">Dashboard</a></li>
+ <li><a href="#">Profile</a></li>
+ <li><a href="#">Messages</a></li>
+ <li><a href="#">Logout</a></li>
+ </ul>
+ <div class="clear"></div>
+ </nav>
 </body>
 </html>

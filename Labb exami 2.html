@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Timetable - CSE Department</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+            width: 70%;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 6px 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .day {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h2>College Timetable - CSE Department</h2>
+
+<table>
+    <tr>
+        <th>DAY</th>
+        <th>I</th>
+        <th>II</th>
+        <th>III</th>
+        <th>IV</th>
+    </tr>
+    <tr>
+        <td class="day">Monday</td>
+        <td>PHYSICS</td>
+        <td>CHEM.</td>
+        <td>Maths</td>
+        <td>ENGLISH</td>
+    </tr>
+    <tr>
+        <td class="day">Tuesday</td>
+        <td>English</td>
+        <td rowspan="2">Data structure</td>
+        <td>physics</td>
+        <td>chem.</td>
+    </tr>
+    <tr>
+        <td class="day">Wednesday</td>
+        <td>Mathematics</td>
+        <td rowspan="2">Data structure</td>
+        <td>English</td>
+        
+    </tr>
+    <tr>
+        <td class="day">Thursday</td>
+        <td>Workshop</td>
+        <td>Physics</td>
+        <td colspan="2"> data structure</td>
+        
+    </tr>
+</table>
+
+</body>
+</html>
